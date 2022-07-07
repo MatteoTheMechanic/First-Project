@@ -1,0 +1,116 @@
+body
+{
+    background-color: #02182b;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 !important;
+}
+#wrapper
+{
+    width: 100%;
+}
+#header
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#logo
+{
+    width: 1000px;
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+    color: #68c5db;
+    text-shadow: 3px 3px 5px #68c5db;
+    /*-webkit-box-shadow: 10px 10px 30px 5px rgba(104,197,219,1);
+    -moz-box-shadow: 10px 10px 30px 5px rgba(104,197,219,1);
+    box-shadow: 10px 10px 30px 5px rgba(104,197,219,1);*/
+}
+#nav
+{
+    width: 100%;
+    background-color: #0197f6;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 36px;
+    position: sticky;
+    top: 0;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 200%;
+}
+ol a
+{
+    text-decoration: none;
+    display: block;
+    
+
+}
+ol > li
+{
+    float: left;
+    border-right: 5px solid #025891;
+    width: 200px;
+    font-weight: 700;
+}
+ol > li:first-child
+{
+    border-left: 5px solid #025891;
+}
+ol > li:hover
+{
+    background-color: #0086e5;   
+}
+ol > li > ul
+{
+    padding: 0;
+    margin: 0;
+    width: 195px;
+    list-style-type: none;
+    /*display: inline-block;*/
+    display: none;
+}
+ol > li:hover > ul
+{
+    display: block;
+    border-left: 5px solid #025891;
+}
+ol > li > ul > li
+{
+    border-top: 5px solid #025891;
+}
+ol > li > ul > li:last-child
+{
+    border-bottom: 5px solid #025891;
+}
+ol > li > ul > li:hover> a
+{
+    background-color: aqua;
+}
+#content
+{
+    width: 960px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(104,197,219,1);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(104,197,219,1);
+    box-shadow: 0px 0px 30px 5px rgba(104,197,219,1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+#footer
+{
+    width: 100%;
+    background-color: #022845;
+    text-align: center;
+    padding: 20px;
+}
